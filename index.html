@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Campaign Relaunch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.imgur.com/T5gXj22.png" alt="UP LMS Logo" id="logo-img"> <!-- Replace with your actual logo -->
+            <span>Think Green: Relaunch</span>
+        </div>
+        <nav>
+            <a href="#intro" class="nav-link active" data-page="intro">Intro</a>
+            <a href="#aida" class="nav-link" data-page="aida">AIDA</a>
+            <a href="#measurement" class="nav-link" data-page="measurement">Measurement</a>
+            <a href="#fixes" class="nav-link" data-page="fixes">Fixes</a>
+            <a href="#relaunch" class="nav-link" data-page="relaunch">Relaunch</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro" class="page active">
+            <div class="page-content">
+                <h1 class="page-title">Revitalizing "Think Green at Work"</h1>
+                <p class="subtitle">Analyzing an FMCG company's internal sustainability campaign & proposing a path to success.</p>
+                <div class="intro-grid">
+                    <div class="intro-card">
+                        <i class="fas fa-industry icon-large"></i>
+                        <h3>Industry</h3>
+                        <p>FMCG</p>
+                    </div>
+                    <div class="intro-card">
+                        <i class="fas fa-bullhorn icon-large"></i>
+                        <h3>Campaign</h3>
+                        <p>"Think Green at Work"</p>
+                    </div>
+                    <div class="intro-card">
+                        <i class="fas fa-exclamation-triangle icon-large"></i>
+                        <h3>Problem</h3>
+                        <p>Low adoption, undermining ESG. Not seen as urgent.</p>
+                    </div>
+                    <div class="intro-card">
+                        <i class="fas fa-tasks icon-large"></i>
+                        <h3>Challenge</h3>
+                        <p>Measure behavioral change, not just awareness.</p>
+                    </div>
+                </div>
+                 <button class="cta-button" onclick="navigateToPage('aida')">Start Analysis <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+
+        <section id="aida" class="page">
+            <div class="page-content">
+                <h1 class="page-title">Campaign Effectiveness: AIDA Analysis</h1>
+                <p class="subtitle">Evaluating "Think Green at Work" using the Attention–Interest–Desire–Action model.</p>
+                <div class="aida-container">
+                    <div class="aida-step">
+                        <div class="aida-icon-wrapper attention"><i class="fas fa-eye"></i></div>
+                        <h2>Attention</h2>
+                        <p><strong>Achieved:</strong> Colorful posters and emails likely grabbed initial attention.</p>
+                        <p><em>However, passive methods yield short-lived impact.</em></p>
+                        <div class="aida-rating">
+                            <i class="fas fa-star filled"></i><i class="fas fa-star filled"></i><i class="fas fa-star filled"></i><i class="fas fa-star-half-alt filled"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="aida-step">
+                        <div class="aida-icon-wrapper interest"><i class="fas fa-hand-sparkles"></i></div>
+                        <h2>Interest</h2>
+                        <p><strong>Low:</strong> Seen as "nice" but not "urgent or relevant." No link to daily work.</p>
+                        <p><em>Lacks personal relevance.</em></p>
+                        <div class="aida-rating">
+                            <i class="fas fa-star filled"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="aida-step">
+                        <div class="aida-icon-wrapper desire"><i class="fas fa-heart"></i></div>
+                        <h2>Desire</h2>
+                        <p><strong>Very Low:</strong> Without clear benefit (WIIFM?), desire to participate is minimal.</p>
+                        <p><em>No incentives or connection to values.</em></p>
+                        <div class="aida-rating">
+                            <i class="fas fa-star filled"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="aida-step">
+                        <div class="aida-icon-wrapper action"><i class="fas fa-person-running"></i></div>
+                        <h2>Action</h2>
+                        <p><strong>Minimal:</strong> Low recycling and participation. Result of no desire/interest.</p>
+                        <p><em>Ultimate goal not met.</em></p>
+                         <div class="aida-rating">
+                            <i class="fas fa-star-half-alt filled"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="summary-text"><strong>Conclusion:</strong> The campaign gained Attention but failed to generate Interest and Desire, leading to poor Action.</p>
+            </div>
+        </section>
+
+        <section id="measurement" class="page">
+            <div class="page-content">
+                <h1 class="page-title">Employee Engagement Measurement Plan</h1>
+                <p class="subtitle">A multi-faceted approach to track awareness, sentiment, and behavioral change.</p>
+                <div class="measurement-grid">
+                    <div class="measurement-card">
+                        <div class="card-icon"><i class="fas fa-poll"></i></div>
+                        <h3>Surveys</h3>
+                        <p><strong>Baseline & Pulse Surveys:</strong></p>
+                        <ul>
+                            <li>Gauge awareness, attitudes, and barriers.</li>
+                            <li>Track changes post-relaunch.</li>
+                            <li>Collect feedback and suggestions.</li>
+                        </ul>
+                    </div>
+                    <div class="measurement-card">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Digital Tracking</h3>
+                        <p><strong>Observable Metrics:</strong></p>
+                        <ul>
+                            <li><strong>Recycling Rates:</strong> Measure volume of recycled materials.</li>
+                            <li><strong>Resource Consumption:</strong> Track energy, water, paper usage.</li>
+                            <li><strong>Intranet Engagement:</strong> Monitor content views, forum activity.</li>
+                        </ul>
+                    </div>
+                    <div class="measurement-card">
+                        <div class="card-icon"><i class="fas fa-users-gear"></i></div>
+                        <h3>Ambassador Feedback</h3>
+                        <p><strong>Insights from "Green Champions":</strong></p>
+                        <ul>
+                            <li>Establish a network of enthusiastic ambassadors.</li>
+                            <li>Understand ground-level sentiment.</li>
+                            <li>Identify local successes and challenges.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fixes" class="page">
+            <div class="page-content">
+                <h1 class="page-title">Identifying What Needs to Be Fixed</h1>
+                <p class="subtitle">Diagnosing core issues with the original "Think Green at Work" campaign.</p>
+                <div class="fixes-grid">
+                    <div class="fix-item">
+                        <div class="fix-icon-wrapper"><i class="fas fa-microphone-alt"></i></div>
+                        <div class="fix-content">
+                            <h3>Tone</h3>
+                            <p><strong>Problem:</strong> "Nice" but not "urgent." Lacks impact and connection.</p>
+                            <p><strong>Fix:</strong> Infuse urgency, highlight impact. Be empowering and inspiring.</p>
+                        </div>
+                    </div>
+                    <div class="fix-item">
+                        <div class="fix-icon-wrapper"><i class="fas fa-object-group"></i></div>
+                        <div class="fix-content">
+                            <h3>Format</h3>
+                            <p><strong>Problem:</strong> Static posters and emails are easily ignored.</p>
+                            <p><strong>Fix:</strong> Use interactive workshops, gamification, digital platforms.</p>
+                        </div>
+                    </div>
+                    <div class="fix-item">
+                        <div class="fix-icon-wrapper"><i class="fas fa-gift"></i></div>
+                        <div class="fix-content">
+                            <h3>Incentive</h3>
+                            <p><strong>Problem:</strong> No clear "What's In It For Me?" (WIIFM). No recognition.</p>
+                            <p><strong>Fix:</strong> Implement recognition system, team rewards. Link to company benefits.</p>
+                        </div>
+                    </div>
+                    <div class="fix-item">
+                        <div class="fix-icon-wrapper"><i class="fas fa-link"></i></div>
+                        <div class="fix-content">
+                            <h3>Alignment</h3>
+                            <p><strong>Problem:</strong> Not relevant to daily work or company goals. Seems disconnected.</p>
+                            <p><strong>Fix:</strong> Link to ESG commitments and business objectives. Show individual contribution. Leadership support is key.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="relaunch" class="page">
+            <div class="page-content">
+                <h1 class="page-title">Relaunch Strategy: Tactics & KPIs</h1>
+                <p class="subtitle">Actionable recommendations for a successful campaign relaunch.</p>
+                <div class="relaunch-columns">
+                    <div class="relaunch-column">
+                        <h2><i class="fas fa-lightbulb"></i> New Engagement Tactics</h2>
+                        <ul class="tactics-list">
+                            <li><strong>Leadership Kick-off:</strong> Emphasize strategic importance.</li>
+                            <li><strong>Gamified "Green Challenge":</strong> Make participation fun and competitive.</li>
+                            <li><strong>Interactive Workshops:</strong> Focus on practical skills and idea sharing.</li>
+                            <li><strong>Visible Progress Dashboards:</strong> Show real-time impact.</li>
+                            <li><strong>Storytelling & Recognition:</strong> Share successes, appreciate participants.</li>
+                        </ul>
+                    </div>
+                    <div class="relaunch-column">
+                        <h2><i class="fas fa-bullseye"></i> Key Performance Indicators (KPIs)</h2>
+                        <ul class="kpi-list">
+                            <li><strong>Participation Rate:</strong> +30% increase in active participation.</li>
+                            <li><strong>Recycling Volume:</strong> +20% increase in sorted materials.</li>
+                            <li><strong>Waste Reduction:</strong> -10% decrease in office waste.</li>
+                            <li><strong>Sustainability Survey Scores:</strong> +10 point increase in surveys.</li>
+                            <li><strong>Number of Green Ideas:</strong> Increase in new suggestions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
